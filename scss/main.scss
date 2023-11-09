@@ -1,0 +1,160 @@
+$secondary: #ffe92d;
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+html {
+ overflow: hidden;
+ font-size: 16px;
+}
+
+body {
+ overflow: hidden;
+ background: linear-gradient(to bottom, #959595, #7a7ac4, #4c4cc7, #00008d);
+}
+
+.main {
+ position: relative;
+ min-height: 100vh;
+ min-width: 100vw;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.container {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.weather {
+ position: absolute;
+ top: 4%;
+ left: 4%;
+}
+
+.container-joke {
+ width: 90%;
+ margin: 0 auto;
+}
+
+.shape1 {
+ position: absolute;
+ z-index: -1;
+ max-width: 1400px;
+ min-width: 240%;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+}
+
+.score-button {
+ background: unset;
+ border: 0;
+ font-size: 3rem;
+}
+
+.btn-secondary {
+ background: #ffe92d;
+ border: 3px solid #0e0e0e;
+ color: #0e0e0e;
+ font-size: 1.2rem;
+ font-weight: 500;
+}
+
+.btn-secondary:hover {
+ background: #ffcc00;
+ border: 3px solid #0e0e0e;
+ color: #0e0e0e;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 420px) {
+ .shape1 {
+  min-width: 200%;
+ }
+}
+
+@media (min-width: 500px) {
+ .shape1 {
+  min-width: 180%;
+  top: 52%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+ }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 580px) {
+ .shape1 {
+  min-width: 160%;
+  top: 52%;
+  left: 56%;
+  transform: translate(-50%, -50%);
+ }
+}
+
+@media (min-width: 680px) {
+ .shape1 {
+  min-width: 150%;
+ }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+ html {
+  font-size: 18px;
+ }
+
+ .container-joke {
+  width: 80%;
+  margin: 0 auto;
+ }
+
+ .shape1 {
+  min-width: 140%;
+ }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+ html {
+  font-size: 22px;
+ }
+
+ .container-joke {
+  width: 66%;
+ }
+
+ .shape1 {
+  min-width: 126%;
+  top: 56%;
+  left: 56%;
+ }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+ .container-joke {
+  width: 56%;
+ }
+
+ .shape1 {
+  min-width: 110%;
+  top: 56%;
+  left: 54%;
+ }
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+ .container-joke {
+  width: 44%;
+ }
+
+ .shape1 {
+  min-width: 82%;
+  top: 54%;
+  left: 53%;
+ }
+}
