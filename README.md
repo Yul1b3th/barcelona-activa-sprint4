@@ -23,4 +23,4 @@ En este repositorio, encontrarás los recursos para la actividad del Sprint 4 de
 
 Puedes ver una demo en línea de esta aplicación en el siguiente enlace:
 
-[Random Jokes](https://yul1b3th.github.io/barcelona-activa-sprint4)
+[Random Jokes](https://yul1b3th.github.io/barcelona-activa-sprint4/views)
