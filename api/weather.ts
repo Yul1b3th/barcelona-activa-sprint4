@@ -302,7 +302,7 @@ weatherData.forEach((item) => {
 
 async function getWeatherData() {
  const apiKey = '19e4f1a58d2140c196e82703230711';
- const url = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=41.3851,2.1734&aqi=no`;
+ const url = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=41.3851,2.1734&aqi=no`;
 
  try {
   const response = await fetch(url);
